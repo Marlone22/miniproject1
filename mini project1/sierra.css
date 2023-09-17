@@ -4,15 +4,116 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+
 }
 body {
+    height: 125vh;
+    background: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);   
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+img.logo {
+    height: 60px;
+    width: 110px;
+}
+nav.nav.navbar {
+    margin-top: 0;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+a.nav-link {
+    color: #25c1ed;
+    padding: auto;
+
+}
+a.donate {
+    color: aliceblue;
+    padding: auto;
+}
+a.navbar-brand {
     padding: 0;
-    margin: 0;
+}
+img.d-block {
+    width: 100%;
+
+}
+#hero {
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    color:#ec6120;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 300px;
+}
+.nav-item {
+    transition-duration: 0.4s;
+   text-align: center;
+   display: inline-flex;
+}
+.nav-item:hover {
+    border-radius: 25px;
+    background-color: #4CAF50; 
+}
+.nav-item-btn .donate:hover {
+    color: red;
+    transition: 0.7;
+}
+
+
+.nav-item-btn button {
+    border-radius: 20px;
+    background-color:#fcd22c;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+.text {
+    color: hsl(228, 14%, 93%);
+    font-family: 'Playfair Display', serif;
+}
+img.img-thumbnail {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.carousel-item .d-block {
+    height: 500px;
+}
+  
+  .container-form 
+  {
+    padding: 15px;
+  }
+  
+  input[type=text], input[type=submit] 
+  {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
     box-sizing: border-box;
-}
-.px-wide {
-    width: 700px;
-}
-
-
+    border-radius: 10px;
+  }
+  
+  input[type=submit] 
+  {
+    background-color: #f2182e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  input[type=submit]:hover 
+  {
+    opacity: 1;
+  }
